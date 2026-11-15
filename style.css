@@ -155,10 +155,11 @@
 }
 
 .hero-buttons .btn {
-    padding: 12px 22px;
+    padding: 11px 20px;
     border-radius: 4px;
     font-size: 13px;
     font-weight: 600;
+    transition: 0.5s;
 }
 
 
@@ -195,6 +196,11 @@
     .hero-image {
         height: 350px;
     }
+
+    .hero-buttons .btn {
+    height: 43.1px;
+    margin-top: 10px;
+}
 
 }
 
